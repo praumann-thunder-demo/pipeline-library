@@ -1,0 +1,12 @@
+kind: Pod
+metadata:
+  name: maven
+spec:
+  containers:
+  - name: maven
+    image: maven:3.5
+    command:
+    - cat
+    tty: true
+  securityContext:
+    runAsUser: 1000
