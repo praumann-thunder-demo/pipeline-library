@@ -1,6 +1,6 @@
 kind: Pod
 metadata:
-  name: maven
+  name: maven-app
 spec:
   containers:
   - name: maven
