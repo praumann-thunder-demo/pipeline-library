@@ -10,7 +10,7 @@ spec:
     - cat
     tty: true
   - name: maven-jdk8
-    image: maven:3.9.6-amazoncorretto-8
+    image: maven:3.8.6-openjdk-8
     command:
     - cat
     tty: true
