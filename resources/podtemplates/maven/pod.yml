@@ -4,8 +4,13 @@ metadata:
 spec:
   serviceAccountName: jenkins
   containers:
-  - name: maven
+  - name: maven-jdk17
     image: maven:3.8.8-eclipse-temurin-17-alpine
+    command:
+    - cat
+    tty: true
+  - name: maven-jdk8
+    image: maven:3.9.6-amazoncorretto-8
     command:
     - cat
     tty: true
