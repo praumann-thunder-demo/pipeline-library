@@ -9,8 +9,8 @@ spec:
     command:
     - cat
     tty: true
-  - name: jdk8
-    image: java:openjdk-8
+  - name: jdk11
+    image: openjdk:11.0.11-slim-buster
     command:
     - cat
     tty: true
