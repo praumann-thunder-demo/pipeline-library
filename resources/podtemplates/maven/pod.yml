@@ -9,8 +9,8 @@ spec:
     command:
     - cat
     tty: true
-  - name: maven-jdk8
-    image: maven:3.8.6-openjdk-8
+  - name: jdk8
+    image: java:openjdk-8
     command:
     - cat
     tty: true
